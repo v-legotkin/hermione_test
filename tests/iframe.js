@@ -1,7 +1,7 @@
 'use strict';
 
 const assert = require('chai').assert;
-const tests_config = require('../../_tests_config');
+const tests_config = require('../config/_tests_config');
 const url_secure = tests_config.root_url_secure;
 
 describe('open Sberbank Online ps in frame', function () {
@@ -9,8 +9,6 @@ describe('open Sberbank Online ps in frame', function () {
         return this.browser
 
             .url('https://livedemo.xsolla.com/paystation')
-
-            .setCookie({name: 'host', value: url_secure})
 
             .waitForExist('.link')
             .click('.link')
