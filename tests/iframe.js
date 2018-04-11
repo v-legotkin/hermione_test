@@ -1,8 +1,6 @@
 'use strict';
 
 const assert = require('chai').assert;
-const tests_config = require('../config/_tests_config');
-const url_secure = tests_config.root_url_secure;
 
 describe('open Sberbank Online ps in frame', function () {
     it('should open payment page', function () {
