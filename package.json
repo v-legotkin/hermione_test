@@ -1,0 +1,14 @@
+{
+  "name": "hermione_test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "hermione tests",
+    "allure": "allure serve allure-results/"
+  },
+  "dependencies": {
+    "hermione": "0.66.0",
+    "chai": "4.1.2",
+    "hermione-allure-reporter": "1.5.1",
+    "allure-commandline": "2.5.0"
+  }
+}

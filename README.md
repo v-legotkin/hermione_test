@@ -10,4 +10,8 @@ npm install
 
 npm run test
 
+## Отчет
+
+npm run allure
+
 
